@@ -1,6 +1,4 @@
-import React from "react";
-import { FaLinkedin, FaInstagram, FaGithub } from "react-icons/fa";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FaLinkedin, FaGithub } from "react-icons/fa"
 import styled from "styled-components";
 
 const Social = styled.div`

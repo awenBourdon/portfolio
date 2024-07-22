@@ -2,6 +2,7 @@ import React from "react";
 import { FaTimes } from "react-icons/fa";
 import styled from "styled-components";
 import { Link as ScrollLink } from "react-scroll";
+import { Link } from "react-router-dom";
 
 const SiderBar = styled.div`
   background: #151418;
@@ -87,14 +88,12 @@ function Dropdown({ isOpen, toggle }) {
         </NavLink>
       </NavMenu>
       <NavBtn onClick={toggle}>
-        <a
-          className="btn PrimaryBtn"
-          href="https://github.com/awenBourdon"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Mon CV
-        </a>
+      <Link
+    className="btn PrimaryBtn"
+    to="/cv"
+    target="_blank">
+        Mon CV
+      </Link>
       </NavBtn>
     </SiderBar>
   );

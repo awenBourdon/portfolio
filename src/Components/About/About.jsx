@@ -19,7 +19,7 @@ function About() {
             alt=""
           />
           <div className="AboutBio">
-            Hey ! Moi c'est <strong>Awen</strong> . Après cinq années de bons et loyaux services en restauration, j'ai pris la décision de me reconvertir dans l'informatique. Actuellement, je suis en formation à Ada Tech School à Nantes pour préparer un diplôme de développeur.
+            Enchanté, moi c'est <strong>Awen</strong> . Après cinq années de bons et loyaux services en restauration, j'ai pris la décision de me reconvertir dans l'informatique. Actuellement, je suis en formation à Ada Tech School à Nantes pour préparer un diplôme de développeur.
           </div>
           <div className="AboutBio tagline2">
             Mes stacks :

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Dropdown from "../Dropdown";
 import Header from "../Header/Header";
 import scrollDownImage from '../assets/scroll_down.svg';
-import photo from "../assets/photo.png"
+import photo from "../assets/photo.webp"
 import {
   HeroContainer,
   HeroWrapper,

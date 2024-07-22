@@ -1,6 +1,7 @@
 import React from "react";
 import { Nav, Logo, NavLink, Bars, NavMenu, NavBtn } from "./HeaderElements";
 import logo from "../assets/logo.svg"
+import { Link } from "react-router-dom";
 
 const Header = ({ toggle }) => {
   return (
@@ -24,14 +25,12 @@ const Header = ({ toggle }) => {
           </NavLink>
         </NavMenu>
         <NavBtn>
-          <a
-            className="btn PrimaryBtn"
-            href="https://github.com/awenBourdon"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Mon CV
-          </a>
+        <Link
+    className="btn PrimaryBtn"
+    to="/cv"
+    target="_blank">
+        Mon CV
+      </Link>
         </NavBtn>
         <Bars onClick={toggle} />
       </Nav>
